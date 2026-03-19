@@ -22,6 +22,9 @@ public class CustomList {
         }
         cities.remove(city);
     }
+    public int countCities() {
+        return cities.size();
+    }
     
 
     // Will be implemented later using TDD (leave blank for now)
